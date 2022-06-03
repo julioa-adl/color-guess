@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+header {
+  text-align: center;
+  background-color: white;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+#descricao {
+  color: gray;
+}
+
+#rgb-color {
+  color: darkslategrey;
+  margin-top: 50px;
+}
+
+main {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#section-answer {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.ball {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+
+#answer {
+  color: gray;
+}
+
+#reset-game {
+  background-color: hsl(122, 39%, 49%); /* Green */
+  color: darkslategrey;
+  border: none;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+#reset-game:hover {
+  background-color: hsl(122, 39%, 49%); /* Green */
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 10px auto;
+}
+
+#score {
+  padding: 10px;
+}
